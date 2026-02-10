@@ -1,0 +1,32 @@
+/* About Section */
+.about {
+  background-color: var(--bg-light);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+.about .btn {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .about p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about p {
+    font-size: 0.9rem;
+  }
+}
